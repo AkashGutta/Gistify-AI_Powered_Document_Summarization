@@ -118,6 +118,29 @@ src/
 - **documents**: Stores uploaded file metadata
 - **summaries**: Stores AI-generated summaries
 
+## Design Decisions
+
+### Authentication
+Google OAuth2 was implemented using Spring Security OAuth2 Login to ensure secure authentication without handling user passwords directly. This approach simplifies security management while providing backend validation of authenticated users.
+
+### Backend Architecture
+The application follows a layered architecture:
+- Controllers handle HTTP requests and UI interaction
+- Services encapsulate business logic such as document processing and AI summarization
+- Repositories use Spring Data JPA for clean and maintainable database access
+
+This separation improves readability, testability, and long-term maintainability.
+
+### AI Integration
+Ollama was chosen for AI summarization to enable local, offline-capable inference without reliance on external APIs. Spring AI provides a clean abstraction over Ollama models, allowing easy switching between models such as TinyLlama and Phi-3.
+
+### Document Processing
+Apache Tika and Apache POI were selected to support multiple document formats (PDF, DOCX, TXT) with reliable text extraction while minimizing format-specific handling logic.
+
+### Data Isolation
+Each document and summary is strictly associated with the authenticated user. Database-level relationships and user-scoped queries ensure that users can access only their own data.
+
+
   ## Screenshots
 
 ### Landing Page – Application Overview & Entry Point
@@ -173,4 +196,5 @@ M. S. Ramaiah Institute of Technology, Bengaluru
 ## Submission Date
 
 January 2026
+
 
