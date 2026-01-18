@@ -120,10 +120,13 @@ src/
 
 ## Limitations
 
-- Maximum file size: 50MB
-- Supported formats: PDF, DOCX, TXT only
-- AI model requires sufficient RAM (adjust model in config)
-- Summary quality depends on document quality and Ollama model used
+- Maximum supported file size is approximately 50MB
+- Only PDF, DOCX, and TXT file formats are supported
+- AI summarization performance and quality depend on the selected Ollama model
+- Large documents may result in increased processing time
+- Ollama models require sufficient system RAM for stable inference
+- The application is intended for single-node deployment and does not include distributed processing
+
 
 ## Author
 
