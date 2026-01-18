@@ -1,0 +1,13 @@
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\config\ChatClientConfig.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\Controller\WebController.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\entity\Document.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\entity\Summary.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\entity\User.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\Repository\DocumentRepository.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\Repository\SummaryRepository.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\Repository\UserRepository.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\Security\CustomOAuth2UserService.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\Security\SecurityConfig.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\service\DocumentService.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\SpringAiRagTutorialApplication.java
+C:\Users\akash\spring-ai-rag-ollama\src\main\java\com\techie\springai\rag\SummaryController.java

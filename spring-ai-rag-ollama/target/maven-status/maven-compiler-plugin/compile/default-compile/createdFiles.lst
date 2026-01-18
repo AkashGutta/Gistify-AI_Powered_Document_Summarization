@@ -1,0 +1,13 @@
+com\techie\springai\rag\config\ChatClientConfig.class
+com\techie\springai\rag\entity\Document.class
+com\techie\springai\rag\entity\User.class
+com\techie\springai\rag\Controller\WebController.class
+com\techie\springai\rag\Repository\SummaryRepository.class
+com\techie\springai\rag\entity\Summary.class
+com\techie\springai\rag\Repository\UserRepository.class
+com\techie\springai\rag\SummaryController.class
+com\techie\springai\rag\service\DocumentService.class
+com\techie\springai\rag\Security\SecurityConfig.class
+com\techie\springai\rag\Security\CustomOAuth2UserService.class
+com\techie\springai\rag\SpringAiRagTutorialApplication.class
+com\techie\springai\rag\Repository\DocumentRepository.class
