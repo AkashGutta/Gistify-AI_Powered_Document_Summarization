@@ -1,4 +1,4 @@
-# Seconize Document Summarizer
+# Gistify: AI_Powered_Document_Summarization
 
 AI-powered document summarization application with Google OAuth2 authentication.
 
@@ -131,5 +131,6 @@ src/
 M. S. Ramaiah Institute of Technology, Bengaluru
 
 ## Submission Date
+
 
 January 2026
