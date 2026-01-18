@@ -62,7 +62,7 @@ Edit `src/main/resources/application.properties`:
 spring.datasource.password=YOUR_MYSQL_PASSWORD
 spring.security.oauth2.client.registration.google.client-id=YOUR_CLIENT_ID
 spring.security.oauth2.client.registration.google.client-secret=YOUR_CLIENT_SECRET
-spring.ai.ollama.chat.model=tinyllama
+spring.ai.ollama.chat.model=phi3
 ```
 
 ### 6. Build and Run
@@ -196,5 +196,6 @@ M. S. Ramaiah Institute of Technology, Bengaluru
 ## Submission Date
 
 January 2026
+
 
 
