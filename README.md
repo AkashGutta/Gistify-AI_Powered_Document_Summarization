@@ -125,7 +125,7 @@ This screenshot shows the public landing page of the application before authenti
 It introduces the purpose of the system as an AI-powered document summarizer and highlights the core capabilities such as support for PDF, DOCX, and TXT files, AI-generated summaries using Ollama, secure Google Sign-In, and access to document history.  
 The “Sign in with Google” button initiates the OAuth2 authentication flow using Spring Security.
 
-![Landing Page](screenshots/landing.png)
+![Landing Page](spring-ai-rag-ollama/screenshots/landing.png)
 
 ---
 
@@ -134,7 +134,7 @@ This screenshot captures the Google Sign-In consent screen.
 When the user clicks “Sign in with Google” on the landing page, they are redirected to Google’s authentication service. After the user selects an account and grants permission, Google issues an OAuth2 token that is validated by the Spring Boot backend.  
 No passwords are handled or stored by the application, ensuring secure authentication.
 
-![Google Sign-In](screenshots/login.png)
+![Google Sign-In](spring-ai-rag-ollama/screenshots/login.png)
 
 ---
 
@@ -143,7 +143,7 @@ This screenshot displays the main dashboard after successful authentication.
 At the top, the logged-in user’s identity is shown along with a logout option. The “Upload Document” section allows the user to select a supported file and initiate the summarization process.  
 Below, the “Your Documents” section lists all documents previously uploaded by the authenticated user along with their AI-generated summaries and timestamps. Each document-summary pair is strictly scoped to the current user, ensuring complete data isolation.
 
-![User Dashboard](screenshots/dashboard.png)
+![User Dashboard](spring-ai-rag-ollama/screenshots/dashboard.png)
 
 ---
 
@@ -152,7 +152,7 @@ This screenshot shows the dashboard for a different authenticated user.
 Although the UI layout remains identical, the listed documents and summaries are entirely different, demonstrating that the application enforces proper ownership-based access control.  
 Each user can view and manage only their own uploaded documents and summaries, with no overlap or cross-user visibility.
 
-![User-Specific Data Isolation](screenshots/user-isolation.png)
+![User-Specific Data Isolation](spring-ai-rag-ollama/screenshots/user-isolation.png)
 
 
 ## Limitations
